@@ -3,7 +3,6 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-.python-version
 
 .env
 .env.*
@@ -15,8 +14,8 @@ frontend/node_modules/
 dist/
 build/
 frontend/dist/
-data/*
-!data/README.md
+data/raw/
+data/data_8k/
 
 .vscode/
 .idea/
