@@ -15,7 +15,7 @@ frontend/node_modules/
 dist/
 build/
 frontend/dist/
-data/
+data/*
 !data/README.md
 
 .vscode/
