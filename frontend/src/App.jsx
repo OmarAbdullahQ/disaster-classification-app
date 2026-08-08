@@ -87,7 +87,7 @@ function App() {
 
     try {
       // Direct API call to FastAPI backend
-      const response = await axios.post('http://127.0.0.1:8000/predict', formData, {
+      const response = await axios.post('https://disaster-classification-app.onrender.com/predict', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
