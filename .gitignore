@@ -16,6 +16,12 @@ build/
 frontend/dist/
 data/raw/
 data/data_8k/
+data/aiderv2_downloads/
+data/aiderv2_extracted/
+
+# Generated once on Colab; keep locally or in Drive, not in ordinary Git history.
+artifacts/models/
+artifacts/best_model.keras
 
 .vscode/
 .idea/
