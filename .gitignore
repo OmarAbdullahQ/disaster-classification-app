@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-.python-version
 
 .env
 .env.*
@@ -14,10 +13,15 @@ dist/
 build/
 frontend/dist/
 
-data/*
-!data/README.md
-!data/config.py
-!data/pipeline.py
+# Local datasets
+data/raw/
+data/data_8k/
+data/aiderv2_downloads/
+data/aiderv2_extracted/
+
+# Generated training artifacts
+artifacts/models/
+artifacts/best_model.keras/
 
 .vscode/
 .idea/

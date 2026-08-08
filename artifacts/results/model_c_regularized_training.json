@@ -1,0 +1,15 @@
+{
+  "model": "model_c_regularized",
+  "hypothesis": "Batch normalization, dropout, and training-only augmentation should reduce the generalization gap of the deeper model.",
+  "parameters": 110948,
+  "epochs_trained": 9,
+  "best_epoch": 4,
+  "training_time_seconds": 136.31789526299985,
+  "train_accuracy_at_best_epoch": 0.7584322094917297,
+  "best_validation_accuracy": 0.75,
+  "best_validation_loss": 0.676824152469635,
+  "generalization_gap": 0.008432209491729736,
+  "gpu_devices": [
+    "/physical_device:GPU:0"
+  ]
+}
