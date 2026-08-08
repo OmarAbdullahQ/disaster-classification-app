@@ -1,0 +1,4 @@
+{
+  "selected_model": "model_b_deeper",
+  "selection_rule": "highest validation accuracy at the lowest-validation-loss epoch"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "model_d_custom",
+  "hypothesis": "Parallel 3x3 and 5x5 filters should capture both local damage details and wider smoke, fire, flood, or rubble patterns.",
+  "parameters": 140420,
+  "epochs_trained": 21,
+  "best_epoch": 16,
+  "training_time_seconds": 485.1720168059999,
+  "train_accuracy_at_best_epoch": 0.841349184513092,
+  "best_validation_accuracy": 0.7688442468643188,
+  "best_validation_loss": 0.6960071325302124,
+  "generalization_gap": 0.0725049376487732,
+  "gpu_devices": [
+    "/physical_device:GPU:0"
+  ]
+}

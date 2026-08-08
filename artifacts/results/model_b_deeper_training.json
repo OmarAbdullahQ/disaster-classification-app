@@ -1,0 +1,15 @@
+{
+  "model": "model_b_deeper",
+  "hypothesis": "Adding a third convolution block should learn more complex disaster patterns, but may increase overfitting.",
+  "parameters": 110276,
+  "epochs_trained": 25,
+  "best_epoch": 25,
+  "training_time_seconds": 177.68736413700003,
+  "train_accuracy_at_best_epoch": 0.8766396045684814,
+  "best_validation_accuracy": 0.8366833925247192,
+  "best_validation_loss": 0.4522937834262848,
+  "generalization_gap": 0.03995621204376221,
+  "gpu_devices": [
+    "/physical_device:GPU:0"
+  ]
+}
