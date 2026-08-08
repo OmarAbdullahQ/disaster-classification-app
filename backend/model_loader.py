@@ -5,7 +5,7 @@ import tensorflow as tf
 from PIL import Image
 
 MODEL_PATH = (
-    Path(__file__).resolve().parents[1]
+    Path(__file__).resolve().parents
     / "models"
     / "best_model.keras"
 )
