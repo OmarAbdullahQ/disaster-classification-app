@@ -1,4 +1,3 @@
-
 .venv/
 __pycache__/
 *.py[cod]
@@ -8,19 +7,20 @@ __pycache__/
 .env
 .env.*
 
-
 node_modules/
 frontend/node_modules/
 
 dist/
 build/
 frontend/dist/
+
 data/*
 !data/README.md
+!data/config.py
+!data/pipeline.py
 
 .vscode/
 .idea/
-
 
 .DS_Store
 Thumbs.db
