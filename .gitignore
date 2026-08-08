@@ -1,4 +1,3 @@
-
 .venv/
 __pycache__/
 *.py[cod]
@@ -7,25 +6,25 @@ __pycache__/
 .env
 .env.*
 
-
 node_modules/
 frontend/node_modules/
 
 dist/
 build/
 frontend/dist/
+
+# Local datasets
 data/raw/
 data/data_8k/
 data/aiderv2_downloads/
 data/aiderv2_extracted/
 
-# Generated once on Colab; keep locally or in Drive, not in ordinary Git history.
+# Generated training artifacts
 artifacts/models/
-artifacts/best_model.keras
+artifacts/best_model.keras/
 
 .vscode/
 .idea/
-
 
 .DS_Store
 Thumbs.db
